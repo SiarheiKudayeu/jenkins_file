@@ -25,7 +25,7 @@ pipeline {
         }
                 stage('Go To the test directory and start test') {
             steps {
-                 echo "Go To the test director"
+                 echo "Go To the test directory!!!"
                 sh '''
                 cd jenkins/src
                 javac Test.java
