@@ -17,7 +17,7 @@ pipeline {
         }
                 stage('Cloning repo') {
             steps {
-                echo "Clone.."
+                echo "Clone repo from github"
                 sh '''
                 git clone https://github.com/SiarheiKudayeu/jenkins.git
                 '''
